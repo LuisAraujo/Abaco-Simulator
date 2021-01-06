@@ -62,7 +62,7 @@ Bola.prototype.click = function () {
    if(!this.on){
 		
 		if(  (this.dep01 == null ) || (this.dep01.getOn())) {
-			this.x =  350 + this.x;
+			this.x =  110 + this.x;
 			this.on = true;
 			valor += this.val;
 			
@@ -71,7 +71,7 @@ Bola.prototype.click = function () {
    }else{
 	   
 	   if(  (this.dep02 == null ) || (!this.dep02.getOn())) {
-			this.x =  this.x - 350;
+			this.x =  this.x - 110;
 			this.on = false;
 			valor -= this.val;
 			
